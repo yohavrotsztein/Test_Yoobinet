@@ -1,0 +1,128 @@
+body{
+  background-color: white;
+  margin: 0px !important;
+  width: 70vh;
+}
+
+/* HEADER */
+
+.header{
+  display: flex;
+  place-content: space-between;
+  background-color: #2EB1E2;
+  margin-bottom: 5vh;
+  height: 35px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  height: 22px;
+  color: blue;
+  margin: 0 5px;
+  opacity: 0.4;
+}
+
+.icon:hover{
+  opacity: 1;
+}
+
+/* SECTION */
+
+.section{
+  text-align: -webkit-center;
+}
+
+/* Search Bar */
+
+.search {
+  width: 90%;
+  position: center;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #2EB1E2;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #757575;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #2EB1E2;
+  background: #2EB1E2;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Historic */
+
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  border-top: 1px solid #F6F6F6 ;
+  padding: 10px 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.favicon{
+  height: 15px;
+  padding-right: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: #9B9B9B;
+}
+
+a:visited {
+text-decoration: none;
+color: #9B9B9B;
+}
+
+/* FOOTER */
+
+.footer{
+  height: 35px;
+  align-items: left;
+  display: flex;
+  place-content: space-between;
+
+}
+
+.footer p {
+  margin: 0px;
+  color: #2EB1E2;
+  padding-top: 10px;
+  text-decoration: underline;
+  font-size: 10px;
+}
+.terms{
+  padding-left: 10px;
+}
+.privacy{
+  padding-right: 10px;
+}
